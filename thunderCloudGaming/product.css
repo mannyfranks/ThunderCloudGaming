@@ -1,0 +1,379 @@
+/*
+
+Filename: Damian Lester 
+Date: 1.10.19
+
+
+*/
+
+
+
+  .top h2{
+    font-family: 'Cinzel Decorative', cursive;
+    text-decoration: none;
+    color: yellow;
+    font-size: 35px;
+  }
+
+
+
+html{
+    background-color: black;
+    background-image: url(pro_images/html_img5.png);
+    background-size: 100% 100%;
+    width: 95%;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: black;
+    opacity: 0.8;
+    height: 950px;
+    width: 100%;
+}
+
+.header {
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 60px;
+    text-align: center;
+    color: white;
+  }
+
+  h1 {
+      font-size: 80px;
+      text-shadow: -1px 3px 5px yellow;
+      font-family: 'Paytone One', sans-serif;
+  }
+
+  h3 {
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Style the top navigation bar */
+.navbar {
+    display: flex;
+    position: fixed;
+    background-color: #333;
+    opacity: 0.8;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: rgb(165, 162, 5);
+  }
+
+  .flex-container, .flex-container2 {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .flex-container > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  
+
+.flex-container p {
+    margin-top: 0px;
+    margin-right: 90px;
+    margin-left: 90px;
+    color: greenyellow;
+    background-color: black;
+    font-size: 15px;
+    position: relative;
+    left: 100px;
+    top: 180px;
+    border-top-left-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+
+/*Style for images Row 1*/
+.img1 {
+    background: url("pro_images/egpu6.jpg");
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+
+
+
+.img2 {
+    background: url("pro_images/egpu5.jpg");
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+.flex-container .btn {
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: transparent;
+    font-size: 0px;
+}
+
+.flex-container .btn:hover {
+    background-color: yellow;
+    color: black;
+    font-size: 15px;
+}
+
+ 
+.img3 {
+    background: url("pro_images/egpu3.png");
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+
+.img4 {
+    background: url("pro_images/egpu4.jpg");
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+
+/*Image style for Row 2*/
+.img5{
+    background: url("pro_images/egpuR2.jpg");
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+.img6 {
+    background: url("pro_images/egpuR3.jpg");
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+ 
+.img7 {
+    background: url("pro_images/egpuR4.jpg");
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+
+.img8 {
+    background: url("pro_images/egpuR5.jpg");
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+
+label {
+    color: white;
+    
+}
+
+/*Footer Style*/
+
+footer {
+    padding-top: 100px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > p {
+    display: flex;
+    -webkit-box-flex: flex;
+    color: white;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  flex-container {
+    display: flex;
+  }
+  
+  .column > ul > li > a {
+    font-size: 22px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pName {
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+/*Media query for columns*/
+@media only screen and (min-width: 700px) {
+     body{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .navbar a {
+        font-size: 13px;
+        padding: 7px 19px 7px 19px;
+        
+       }
+
+    .header {
+        display: none;
+    }
+
+    .flex-container img {
+        width: 70%;
+    }
+
+    .flex-container .btn {
+        background-color: rgba(191, 189, 63, 0.75);
+        font-size: 15px;
+
+    }
+    .flex-container p {
+        margin-top: 0px;
+        margin-right: 90px;
+        margin-left: 90px;
+        color: greenyellow;
+        background-color: black;
+        font-size: 15px;
+        position: relative;
+        left: 100px;
+        top: 180px;
+        border-top-left-radius: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+     
+
+
+
+  
+       
+
+  }
+  
+  @media screen and (max-width:1024px) {
+      body {
+          display: block;
+          width: 100%;
+          height: 100%;
+      }
+
+      #cont-control {
+          display: block;
+          width: 100%;
+          align-content: center;
+      }
+  }
+
+  @media screen and (max-width: 375px) {
+
+    html {
+        background: 100% 100%;
+    }
+    .navbar {
+        display: block;
+        position: relative;
+        width: 60%;
+    }
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      
+    body {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    h1 {
+        display: block;
+        font-size: 40px;
+        width: 100%;
+    }
+
+    h3 {
+        display: block;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .flex-container, .img1, .img2, .img3, .img4, .img5, .img6{
+        display: flex;
+        flex-flow: row wrap;
+        overflow: scroll;
+    }
+    .price1, .price2, .price3, .price4{
+        display: none;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+/* display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    z-index: 100;
+*/
+

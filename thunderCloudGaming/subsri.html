@@ -1,0 +1,93 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="subsri.css" />
+    <script src="subscri.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+
+    <div class="top">
+        <h2>THUNDERCLOUD GAMING</h2>
+    </div>
+</head>
+
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="homeP.html">Home</a>
+        <a href="discoverP.html">Discover</a>
+        <a href="product.html">Products</a>
+        <a href="subsri.html">Subscription</a>
+    </div>
+
+    <div id="controlBox">
+        <div class="form">
+            <!--Create Account information-->
+            <form class="formInfo">
+                <h1>Subscribe</h1>
+                <input type="text" placeholder="User Name">
+                <input type="text" name="" placeholder="E-Mail Address">
+                <input type="password" name="" placeholder="Password">
+                <input class="button1" type="button" name="" value="Create Account">
+                <p class="message1">Already Registered? <a href="#">Login</a></p>
+            </form>
+               
+            <!--Login Information-->
+            <form class="login">
+                <h1>Login</h1>
+                <input type="text" placeholder="User Name">
+                <input type="Password" placeholder="Password">
+                <input type="submit" placeholder="Login">
+                <p class="message2">Not Registered? <a href="#">Create Account</a></p>
+                </form>
+            
+
+                <!--Comnpletion of the Create account information-->
+                <form class="finish">
+                    <h1>Complete Form</h1>
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="text" placeholder="Date of Birth">
+                    <input type="text" placeholder="Adress">
+                    <input type="text" placeholder="Zip Code">
+                    <input type="text" placeholder="State">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="submit" name="" value="Submit">
+                </form>
+
+        </div>
+    </div>
+
+    <footer class="fContainer">
+            <p>ThunderCloud Gaming &copy; 2019</p>
+    </footer>
+
+   
+    <script>
+            $('.message1 a').click(function() {
+                $('.login').animate({height: "toggle", opacity: "toggle"}, "slow");
+                $('.formInfo').hide('formInfo');
+                });
+
+            $('.message2 a').click(function() {
+                $('.formInfo').animate({height: "toggle", opacity: "toggle"}, "slow");
+                $('.login').hide('login');
+                });
+            
+            $('.button1, button').click(function() {
+                $('.finish').animate({width: "toggle",height: "toggle", opacity: "toggle", }, "slow");
+                $('.formInfo').hide('formInfo');
+                $('.finish').css({"display": "flex-wrap", "flex-wrap": "column","width": "auto","align-content": "center" });
+                $('.finish h1').css("display", "flex");
+                $('.finish h1').css("align-items", "flex-start");
+            });
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+/*
+
+    Author name: Damian Lester
+    Date: 1.14.19
+
+    Filename: subscri.css
+*/
+
+/*Stlye for the whole page*/
+
+.top h2{
+    font-family: 'Cinzel Decorative', cursive;
+    color: yellow;
+    font-size: 35px;
+  }
+
+html {
+    background-color: black;
+    background-image: url(subs_home.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: black;
+    opacity: 0.8;
+    height: auto;
+}
+
+/*Style for nav bar */
+.navbar {
+    display: flex;
+    position: fixed;
+    background-color: #333;
+    opacity: 0.8;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: rgb(165, 162, 5);
+  }
+
+
+/*style for the form information*/
+  .form {
+      width: auto;
+      padding: 40px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background:rgb(61, 56, 56);
+      text-align: center;
+  }
+
+  .finish {
+      display: flex;
+      column-count: 2;
+      align-content: center;
+      position: center;
+  }
+
+   h1{
+    color: rgb(179, 179, 0);
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+
+
+  .form input[type="text"], .form input[type="password"], .form input[type="button"]{
+      border: 0;
+      background: none;
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      border: 2px solid black;
+      padding: 14px 10px;
+      width: 200px;
+      outline: none;
+      color: white ;
+      font-weight: bolder;
+      border-radius: 24px;
+      transition: 0.25s;
+  }
+
+  .form input[type="text"]:focus, .form input[type="password"]:focus{
+      width: 280px;
+      border-color: rgb(179, 179, 0);
+  }
+
+  .form input[type="submit"], .form input[type="button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+
+  .button1 {
+      width: auto;
+  }
+
+  .form input[type="submit"]:hover,  .form input[type="button"]:hover {
+      background: rgb(179, 179, 0);
+  }
+
+  .form .message1, .form .message2 {
+      margin: 15px 0 0;
+      color: White;
+  }
+
+
+
+  .form .message1 a, .form .message2 a {
+      color: white;
+  }
+
+  .form .message1 a:hover, .form .message2 a:hover {
+      color: rgb(179, 179, 0);
+  }
+
+  .form .login {
+      display: none;
+  }
+
+  .finish{
+      display: none;
+  }
+  
+  .row {
+      display: flex;
+      flex-direction: row;
+  }
+/*Footer style*/
+  .fcontainer {
+      display: inline-block;
+      position: absolute;
+      text-align: center;
+      bottom: 0;
+      width: 100%;
+  }
+
+  footer > p {
+    display: flex;
+    -webkit-box-flex: flex;
+    color: white;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar a {
+        font-size: 13px;
+        padding: 7px 19px 7px 19px;
+       
+        
+       }
+}
+.form {
+    margin-top: 100px;
+}
+
+/*media query*/

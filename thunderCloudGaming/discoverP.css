@@ -1,0 +1,270 @@
+.top {
+    font-family: 'Cinzel Decorative', cursive;
+    color: yellow;
+    
+  }
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+body {
+    background: black;
+    margin: 30px 50px;
+    line-height: 1.4;
+    
+  }
+
+img {
+    max-width: 100%; 
+     }
+
+.discoverWrapper {
+    display: grid;
+    grid-gap: 50px;
+    
+    
+   
+}
+
+.navigation ul {
+    display: grid;
+    grid-gap: 0px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 6.563rem 8.125rem 8.125rem 8.125rem;
+    
+  }
+  
+.navigation a {
+    padding: 14px 20px;
+    
+    background-color: #333;
+  
+    text-decoration: none;
+   
+    color: white;
+    
+    box-shadow: white;
+  
+    font-size: 25px;
+  
+    position: fixed;
+    
+   
+  
+  
+  
+  }
+  
+.navigation a:hover {
+    background: rgb(165, 162, 5);
+    color: black;
+  }
+  
+.rectangles {
+    display: grid;  
+    grid-gap: 10px;
+    
+  }
+
+
+.discover1 {
+    background:yellow;
+    box-shadow: white;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    padding: 48px;
+    color: black;
+    border-top: 10px solid red;
+    border-bottom: 10px solid red;
+    
+    
+
+}
+
+.rectangles img {
+  border-radius: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.rectangles h2 {
+    padding-left: 30px;
+}
+
+.discover2 {
+    background: yellow;
+    box-shadow: white;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    padding: 48px;
+    color: black;
+    border-top: 10px solid red;
+    border-bottom: 10px solid red;
+  
+  
+  }
+
+.discover3 {
+    background: yellow;
+    box-shadow: white;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    padding: 48px;
+    color: black;
+    border-top: 10px solid red;
+    border-bottom: 10px solid red;
+    
+  
+  }
+
+.discover4 {
+    background: yellow;
+    box-shadow: white;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    padding: 48px;
+    color: black;
+    border-top: 10px solid red;
+    border-bottom: 10px solid red;
+   
+}
+
+.discover4 img {
+    border-radius: 30px;
+}
+
+.button{
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 25px;
+    
+  }
+
+  footer {
+    padding-top: 100px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > p {
+    display: flex;
+    -webkit-box-flex: flex;
+    color: white;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  @media (max-width:700px) {
+    
+.navigation a {
+      font-size: 13px;
+      padding: 7px 27px 7px 27px;
+      
+    }
+
+.navigation ul {
+        grid-template-columns: 4rem 5rem 5rem 5rem ;
+    }
+
+body {
+        margin: 10px 10px 10px 10px; 
+     }
+
+.rectangles {
+        display: grid;  
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 70px;
+        font-size: 6px;
+        border-radius: 15px;
+        
+      }
+    
+.rectangles img {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        }
+
+.rBox1 {
+          background-color: white;
+          border-radius: 10px;
+          text-align: center;
+          padding-left: 0px;
+          padding-right:30px;
+      }
+
+.rBox2 {
+        background-color: white;
+        border-radius: 10px;
+        text-align: center;
+        padding-left: 0px;
+        padding-right:30px;
+    }
+
+       
+.rBox3 {
+        background-color: white;
+        border-radius: 10px;
+        text-align: center;
+        padding-left: 0px;
+        padding-right:30px;
+    }
+
+.discover1 {
+            grid-template-columns: 300px;
+            padding-top: 0px;
+            padding-bottom: 10px;
+            margin-left: 0px;
+            margin-right: 100px;
+            
+        }
+        
+.discover2 {
+            grid-template-columns: 300px;
+            padding-top: 40px;
+            padding-bottom: 10px;
+            margin-left: 0px;
+            margin-right: 100px;
+            
+        }
+        .discover3 {
+            grid-template-columns: 300px;
+            padding-top: 40px;
+            padding-bottom: 10px;
+            margin-left: 0px;
+            margin-right: 100px;
+            
+        }
+
+        .discover4 {
+            grid-template-columns: 300px;
+            padding-top: 40px;
+            padding-bottom: 10px;
+            margin-left: 0px;
+            margin-right: 100px;
+            
+        }
+
+        
+
+        
+     
+    }     
